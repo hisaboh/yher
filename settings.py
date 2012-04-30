@@ -14,8 +14,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django_mongodb_engine', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
         'NAME': 'yher',                      # Or path to database file if using sqlite3.
-        'USER': 'yher',                      # Not used with sqlite3.
-        'PASSWORD': 'hogehoge',                  # Not used with sqlite3.
+        'USER': '',                      # Not used with sqlite3.
+        'PASSWORD': '',                  # Not used with sqlite3.
         'HOST': 'localhost',                      # Set to empty string for localhost. Not used with sqlite3.
         'PORT': 27017,                      # Set to empty string for default. Not used with sqlite3.
     }
@@ -34,7 +34,7 @@ TIME_ZONE = 'America/Chicago'
 # http://www.i18nguy.com/unicode/language-identifiers.html
 LANGUAGE_CODE = 'en-us'
 
-SITE_ID = 1
+SITE_ID = u'4f9e900e62cc8b4477000000'
 
 # If you set this to False, Django will make some optimizations so as not
 # to load the internationalization machinery.
