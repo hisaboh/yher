@@ -1,2 +1,4 @@
 
 *.pyc
+
+environment/dev/etc/mongod.conf
